@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework-4</title>
+  </head>
+  <body>
+    <h1>Dado Tea lunch special</h1>
+    <p>
+      Monday through Friday <br />
+      11am-3pm <br />
+      $9.95 plus tax
+    </p>
+    <p>Includes sandwich, snack and drink.</p>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Order Information</legend>
+        <br />
+        <div>
+          <label for="name-order">Name</label> <br />
+          <input type="text" name="name-order" id="name-order" />
+        </div>
+        <br />
+        <div>
+          <input type="radio" name="order-location" id="order-location-1" />
+          <label for="order-location-1">Here</label> <br />
+          <input type="radio" name="order-location" id="order-location-2" />
+          <label for="order-location-2">To Go</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sandwiches</legend>
+        <br />
+        <div>
+          <strong> Monday </strong>
+          <br />
+          <input type="radio" name="order-mon" id="order-mon-1" />
+          <label for="order-mon-1">Tomato Mozzarella</label> <br />
+          <input type="radio" name="order-mon" id="order-mon-2" />
+          <label for="order-mon-2">Chicken Salad</label>
+        </div>
+        <br />
+        <div>
+          <strong> Tuesday </strong>
+          <br />
+          <input type="radio" name="order-tue" id="order-tue-1" />
+          <label for="order-tue-1">Greek Salad Wrap</label> <br />
+          <input type="radio" name="order-tue" id="order-tue-2" />
+          <label for="order-tue-2">Toto Wrap</label>
+        </div>
+        <br />
+        <div>
+          <strong> Wednesday </strong>
+          <br />
+          <input type="radio" name="order-wed" id="order-wed-1" />
+          <label for="order-wed-1">Red Pepper Hummus</label> <br />
+          <input type="radio" name="order-wed" id="order-wed-2" />
+          <label for="order-wed-2">Roasted Turkey</label>
+        </div>
+        <br />
+        <div>
+          <strong> Thursday </strong>
+          <br />
+          <input type="radio" name="order-thu" id="order-thu-1" />
+          <label for="order-thu-1">Carrot-Ginger Hummus Wrap</label> <br />
+          <input type="radio" name="order-thu" id="order-thu-2" />
+          <label for="order-thu-2">Egg Salad</label>
+        </div>
+        <br />
+        <div>
+          <strong> Friday </strong>
+          <br />
+          <input type="radio" name="order-fri" id="order-fri-1" />
+          <label for="order-fri-1">Dado Wrap</label> <br />
+          <input type="radio" name="order-fri" id="order-fri-2" />
+          <label for="order-fri-2">Tuna Salad</label>
+        </div>
+        <br />
+        <hr />
+        <div>
+          <input type="checkbox" name="order-extra" id="order-extra" />
+          <label for="order-extra">Gluten Free Bread (75&cent; extra)</label>
+        </div>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Snack</legend>
+        <br />
+        <div>
+          <strong> Snacks </strong>
+          <br />
+          <input type="radio" name="order-snack" id="order-snack-1" />
+          <label for="order-snack-1">Apple</label> <br />
+          <input type="radio" name="order-snack" id="order-snack-2" />
+          <label for="order-snack-2">Banna</label> <br />
+          <input type="radio" name="order-snack" id="order-snack-3" />
+          <label for="order-snack-3">Potato Chips</label>
+        </div>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Drinks</legend>
+        <select name="order-drinks" id="order-drinks">
+          <option value="coffee">Coffee</option>
+          <option value="organic-peppermint">Organic Peppermint</option>
+          <option value="tea" selected>Tea</option>
+        </select>
+        <hr />
+        <div>
+          <input
+            type="checkbox"
+            name="order-drink-extra"
+            id="order-drink-extra"
+          />
+          <label for="order-drink-extra">Large drink (75&cent; extra)</label>
+        </div>
+        <br />
+      </fieldset>
+      <input type="submit" value="Place Order" />
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
