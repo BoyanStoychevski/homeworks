@@ -32,14 +32,16 @@ let phonePrice
 let phoneTax
 let phoneQuantity
 let phonePriceWithTax
+let phoneTotalPrice
 
 phonePrice = 119.95;
 phoneTax = 5 / 100;
 phoneQuantity = 30;
 phonePriceWithTax = (phonePrice * phoneTax) + phonePrice;
+phoneTotalPrice = phonePriceWithTax * phoneQuantity;
 
 console.log(phonePriceWithTax)
-console.log(phonePriceWithTax * phoneQuantity)
+console.log(phoneTotalPrice)
 // --------------------------------------------------------------------------
 
 
