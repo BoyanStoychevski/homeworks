@@ -1,0 +1,5 @@
+@media print {
+    .site-header{
+        background-color: brown;
+    }
+}
