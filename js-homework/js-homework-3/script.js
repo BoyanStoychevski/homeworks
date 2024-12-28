@@ -39,7 +39,7 @@ function atm() {
     if (withdrow > balance) {
         return "Not enough money";
     } else {
-        return `You withdrew $${withdrow}. Remaining balance: $${balance}`
+        return `You withdrew $${withdrow}. Remaining balance: $${balance - withdrow}`
     }
 }
 
