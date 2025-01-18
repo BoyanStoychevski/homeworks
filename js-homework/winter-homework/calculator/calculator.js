@@ -8,14 +8,14 @@ function appendNumber(number) {
     calcInput.value = currentNumber;
 }
 
-function setOperation(op) {
+function setOperation(operationCharacter) {
     if (currentNumber === '') {
         return;
     }
     if (previousNumber !== '') {
         calculate();
     }
-    operation = op;
+    operation = operationCharacter;
     console.log("currentNumber", currentNumber);
     console.log("previousNumber", currentNumber);
     previousNumber = currentNumber;
